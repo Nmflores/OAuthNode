@@ -1,0 +1,26 @@
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetHelp</title>
+</head>
+
+<body>
+    <form action="/update" method="post">
+        <input type="hidden" name="id" value="<%= user.id %>">
+        <label for="nome">Nome</label>
+
+        <input type="text"  name="nome" value="<%=user.nome%>">;
+        <label for="email">Email</label>
+
+        <input type="email"  name="email" value="<%=user.email%>">;
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+</body>
+
+</html>

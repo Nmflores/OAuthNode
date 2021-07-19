@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <h1>Administrador:</h1>
+    <h2><%= gitHub.nome %></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% user.forEach(function(user){ %>
+            <tr>
+                <td><%= user.nome %></td>
+                <td><%= user.email %></td>
+                <td>
+                    <a href="edit/<%= user.id %>" class="update">Edit</a>
+                    <a href="delete/<%= user.id %>" class="delete">Delete</a>
+                </td>
+                
+            </tr>
+           
+            <% }); %>
+        </tbody>
+    </table>
+     <a href="/login/github" class="gitHub">Logar com o  GitHub</a>
+    <a href="/" class="home">Voltar ao inicio</a>
+</div>
+   
+</body>
+</html>

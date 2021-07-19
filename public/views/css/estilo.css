@@ -1,0 +1,86 @@
+
+body{
+    padding: 0;
+    margin: 0;
+       font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo{
+    color:green;
+    position: absolute;
+    top: 30%;
+    left:40%;
+    font-size: 5pc;
+}
+.cuidados{
+    padding: 130px;    
+}
+
+.menu{
+    text-decoration: none;
+    position: relative;
+ 
+    top: 60%;
+    left:25%;
+    color:black;
+    padding: 10px;
+}
+.menu:hover{
+    border-bottom: black 1px solid;
+
+}
+.formulario{
+    margin: 0 auto; 
+    padding: 25px;
+    width: 50%;
+    
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+      box-sizing: border-box;
+}
+
+label{
+    margin: auto;
+    width: 10%;
+    display: flex;
+}
+
+button{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 43%;
+    padding: 4px;
+}
+
+
+
+td{
+    border: black 1px solid;
+    
+}
+.update{
+    background-color: green;
+    text-decoration: none;
+    color:black;
+}
+.delete{
+    background-color: rgb(211, 22, 22);
+    text-decoration: none;
+    color:black
+}
+
+.gitHub{     
+    text-decoration: none;
+    color:black;
+    background-color:rgb(179, 156, 148) ;
+    border-bottom: black 1px solid;
+}
+.home{
+    text-decoration: none;
+    color: black;
+    background-color:greenyellow;
+
+}
